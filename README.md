@@ -1,4 +1,3 @@
-# SincroNTP
 # Sincronización de Hora NTP
 
 Este proyecto implementa una aplicación web desarrollada con **Java**, **Spring Boot** y **Thymeleaf**, que permite la sincronización de la hora local con servidores NTP. Además, incluye funcionalidades para seleccionar zonas horarias, sincronizar la hora, y mantener un historial de sincronizaciones realizadas.
