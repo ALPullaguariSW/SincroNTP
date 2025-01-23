@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sincronización de Hora NTP</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Sincronización de Hora NTP</h1>
+
+    <!-- Zona para mostrar la hora local -->
+    <div>
+        <p><strong>Hora Local:</strong> <span id="local-time"></span></p>
+    </div>
+
+    <!-- Selector de zona horaria -->
+    <div>
+        <label for="timezone-select">Seleccionar Zona Horaria:</label>
+        <select id="timezone-select">
+            <option value="UTC">UTC</option>
+            <option value="Africa/Abidjan">Abidjan (África)</option>
+            <option value="Africa/Cairo">El Cairo (África)</option>
+            <option value="Africa/Casablanca">Casablanca (África)</option>
+            <option value="America/New_York">Nueva York (América)</option>
+            <option value="America/Los_Angeles">Los Ángeles (América)</option>
+            <option value="America/Chicago">Chicago (América)</option>
+            <option value="America/Denver">Denver (América)</option>
+            <option value="Asia/Tokyo">Tokio (Asia)</option>
+            <option value="Asia/Singapore">Singapur (Asia)</option>
+            <option value="Asia/Shanghai">Shanghái (Asia)</option>
+            <option value="Asia/Kolkata">Calcuta (Asia)</option>
+            <option value="Europe/London">Londres (Europa)</option>
+            <option value="Europe/Paris">París (Europa)</option>
+            <option value="Europe/Madrid">Madrid (Europa)</option>
+            <option value="Europe/Berlin">Berlín (Europa)</option>
+            <option value="Europe/Amsterdam">Ámsterdam (Europa)</option>
+            <option value="Australia/Sydney">Sídney (Australia)</option>
+            <option value="Australia/Melbourne">Melbourne (Australia)</option>
+            <option value="Australia/Perth">Perth (Australia)</option>
+            <option value="Africa/Johannesburg">Johannesburgo (África)</option>
+            <option value="Asia/Dubai">Dubái (Asia)</option>
+            <option value="America/Buenos_Aires">Buenos Aires (América)</option>
+            <option value="America/Lima">Lima (América)</option>
+            <option value="Asia/Seoul">Seúl (Asia)</option>
+            <option value="America/Sao_Paulo">São Paulo (América)</option>
+        </select>
+    </div>
+
+    <!-- Botón de sincronización -->
+    <div>
+        <button id="sync-btn">Sincronizar Hora</button>
+    </div>
+
+    <!-- Resultado de la sincronización -->
+    <div>
+        <p><strong>Hora Sincronizada:</strong> <span id="synced-time"></span></p>
+    </div>
+
+    <!-- Historial de sincronización -->
+    <h3>Historial de Sincronizaciones</h3>
+    <table id="history-table">
+        <thead>
+        <tr>
+            <th>Zona Horaria</th>
+            <th>Hora Local</th>
+            <th>Hora Sincronizada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Aquí se añadirán las sincronizaciones -->
+        </tbody>
+    </table>
+
+    <!-- Mensaje de estado -->
+    <p id="status-text"></p>
+    <div id="loading-spinner" class="spinner"></div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
