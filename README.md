@@ -53,8 +53,8 @@ Este proyecto implementa una aplicación web desarrollada con **Java**, **Spring
 Si deseas personalizar las zonas horarias disponibles, puedes editar el archivo correspondiente en el código fuente (por ejemplo, `application.properties` o una clase de configuración).
 
 ## Capturas de Pantalla
+![text](<assets/Screenshot 2025-01-22 205623.png>) ![text](<assets/Screenshot 2025-01-22 205601.png>) ![text](<assets/Screenshot 2025-01-22 205543.png>) ![text](<assets/Screenshot 2025-01-22 205508.png>) ![text](<assets/Screenshot 2025-01-22 185044.png>) ![text](<assets/Screenshot 2025-01-22 184328.png>)
 
-![alt text](<Screenshot 2025-01-22 184328.png>) ![alt text](<Screenshot 2025-01-22 185044.png>) ![alt text](<Screenshot 2025-01-22 205508.png>) ![alt text](<Screenshot 2025-01-22 205543.png>) ![alt text](<Screenshot 2025-01-22 205601.png>) ![alt text](<Screenshot 2025-01-22 205623.png>)
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una sugerencia, abre un **issue** o envía un **pull request**.
